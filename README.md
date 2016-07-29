@@ -108,10 +108,10 @@ iii. Run sentiment.py from the terminal using:
 
              python3 sentiment.py 
 
-When sentiment.py is called the classifer pipeline: svmClassifier.pkl is loaded in the memory (which takes about 25 secs). Once the classifier is loaded (done only once in the begining), you can input tweet (one at a time) and get its sentiment prediction. The code will continue asking for tweets unless the user enters 'quit'. See illustration of output below:
+When sentiment.py is executed, the classifer pipeline: svmClassifier.pkl is loaded in the memory (done only once in the begining and takes about 25 secs). "READY" will be printed once the classifier is fully loaded and you can now input tweet (one at a time) and get its sentiment. The code will continue asking for tweets unless "ctrl-D (EOF)" is entered to end processing. See illustration of the output below:
 
              Loading the classifier, please wait....
-             Classifier loaded, Enter the tweets one at a time or enter quit to escape.
+             READY
              @Tim I am happy knowing it :) (#User inputs first tweet)
              1                              (#Output of first tweet)
              @NASA I love Science!         (#User inputs second tweet)
@@ -122,7 +122,7 @@ When sentiment.py is called the classifer pipeline: svmClassifier.pkl is loaded 
              .
              .
              .
-             quit (#User inputs quit..program ends)
+             ctrl-D (EOF)  (#User inputs ctrl-D (EOF)..program ends)
              >>>
 
 
