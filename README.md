@@ -100,7 +100,7 @@ iv. scipy (https://www.scipy.org/)
 
 The classifier has been trained and pickled as svmClassifier.pkl. There is no need to run the training again. However, in future the classifier can be re-trained and tested using training.py in src folder.
 
-i. Download the classifer pipeline: svmClassifier.pkl (https://www.dropbox.com/s/mhxzo8koeby3zj8/svmClassifier.pkl?dl=0) and keep it in same folder as sentiment.py
+i. Download the classifer pipeline: svmClassifier.pkl (https://drive.google.com/drive/folders/0B8tUA1zIXoxcTy00elJwUTNEV0U) and keep it in same folder as sentiment.py
 
 ii. Download sentiment.py from src folder
 
