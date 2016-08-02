@@ -96,6 +96,10 @@ iii. numpy (http://www.numpy.org/)
 
 iv. scipy (https://www.scipy.org/)
 
+The required libraries could also be installed from requirements.txt using:
+
+            pip install -r requirements.txt
+
 #### Steps
 
 The classifier has been trained and pickled as svmClassifier.pkl. There is no need to run the training again. However, in future the classifier can be re-trained and tested using training.py in src folder.
