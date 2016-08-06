@@ -129,6 +129,9 @@ When sentiment.py is executed, the classifer pipeline: svmClassifier.pkl is load
              ctrl-D (EOF)  (#User inputs ctrl-D (EOF)..program ends)
              >>>
 
+Alternatively, the classifier could also be run using the docker command below:
+
+         docker run -ti -v /Happy/classifier-data:/var/classifier/ --name tsc --rm devikakakkar29/twitter-sentiment-classifier-image
 
 #### Output
 
